@@ -8,6 +8,7 @@ package menugenetico;
  *
  * @author Usuario
  */
+// Clase que representa un plato con sus atributos
 public class Plato {
     int id;
     String nombre;

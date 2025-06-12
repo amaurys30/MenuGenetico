@@ -11,6 +11,7 @@ import java.util.List;
  *
  * @author Usuario
  */
+// Clase que representa un menú (una solución individual)
 public class Menu {
     List<Plato> platos;
     double fitness;
@@ -19,7 +20,7 @@ public class Menu {
         this.platos = new ArrayList<>(platos);
         calcularFitness();
     }
-
+// Calcula el fitness del menú basado en una fórmula ponderada
     public void calcularFitness() {
         double a = 0.7, b = 0.5, y = 0.3;
         double totalCosto = 0, totalTiempo = 0, totalPopularidad = 0;
